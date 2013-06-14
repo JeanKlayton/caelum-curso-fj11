@@ -32,5 +32,11 @@ public class Exercicio6 {
 		for (ContaCorrente c : contas) {
 			System.out.print(c.getNumero() + " ");
 		}
+		
+		System.out.println("\nRevertendo a lista: ");
+		Collections.reverse(contas);
+		for (ContaCorrente c : contas) {
+			System.out.print(c.getNumero() + " ");
+		}
 	}
 }
