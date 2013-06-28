@@ -13,5 +13,6 @@ public class Exercicio8 {
 		while (scanner.hasNextLine()) {
 			System.out.println(scanner.nextLine());
 		}
+		scanner.close();
 	}
 }

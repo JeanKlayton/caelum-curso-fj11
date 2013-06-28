@@ -38,5 +38,6 @@ public class Exercicio6 {
 		for (ContaCorrente c : contas) {
 			System.out.print(c.getNumero() + " ");
 		}
+		
 	}
 }
